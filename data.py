@@ -7,7 +7,7 @@ def format_number(number):
 
 
 # Läs in Excel-filen
-file_path = r"C:\Users\victor.lanner\Python\Data.xlsx"
+file_path = "Data.xlsx"
 df = pd.read_excel(file_path)
 
 
