@@ -55,7 +55,7 @@ def show_actions():
 
     # Förslag 1
     with st.expander("💧 Stäng av vattnet när du tvålar in dig eller schamponerar håret"):
-        st.image("https://example.com/duschmunstycke.jpg", width=150)  # Ersätt med riktig bild-URL
+    #    st.image("https://example.com/duschmunstycke.jpg", width=150)  # Ersätt med riktig bild-URL
         st.write("En medveten dusch kan göra stor skillnad i vattenförbrukningen.")
         
         showers_per_week = st.slider(
@@ -75,7 +75,7 @@ def show_actions():
 
     # Förslag 2
     with st.expander("🚿 Duscha kortare"):
-        st.image("https://example.com/dusch.jpg", width=150)  # Ersätt med riktig bild-URL
+     #   st.image("https://example.com/dusch.jpg", width=150)  # Ersätt med riktig bild-URL
         st.write("Försök att minska duschtiden.")
         
         temp_shower_slider = st.slider(
@@ -95,7 +95,7 @@ def show_actions():
 
     # Förslag 3
     with st.expander("🔧 Se över läckande kranar och toaletter"):
-        st.image("https://example.com/leak.jpg", width=150)  # Ersätt med riktig bild-URL
+     #   st.image("https://example.com/leak.jpg", width=150)  # Ersätt med riktig bild-URL
         st.write("Läckande kranar och toaletter kan förlora mycket vatten varje dag. Kontrollera dina installationsenheter.")
         
         leaks_per_month = st.slider(
@@ -115,7 +115,7 @@ def show_actions():
 
     # Förslag 4
     with st.expander("💦 Minimera vattenanvändning vid disk och tvätt"):
-        st.image("https://example.com/diskmaskin.jpg", width=150)  # Ersätt med riktig bild-URL
+     #   st.image("https://example.com/diskmaskin.jpg", width=150)  # Ersätt med riktig bild-URL
         st.write("Använd alltid fulla tvätt- och diskmaskiner för att optimera vattenanvändningen.")
         
         machines_per_week = st.slider(
@@ -135,7 +135,7 @@ def show_actions():
 
     # Förslag 5
     with st.expander("🧴 Välj kortare tvättprogram i tvättmaskinen"):
-        st.image("https://example.com/tvattmaskin.jpg", width=150)  # Ersätt med riktig bild-URL
+     #   st.image("https://example.com/tvattmaskin.jpg", width=150)  # Ersätt med riktig bild-URL
         st.write("Försök att använda tvätt- och diskmaskiner med full last och välj ett kortare program när det är möjligt.")
         
         optimized_machines_slider = st.slider(
@@ -155,8 +155,8 @@ def show_actions():
 
     # Förslag 6
     with st.expander("🌿 Samla regnvatten för bevattning"):
-        st.image("https://example.com/regnvatten.jpg", width=150)
-        st.write("Att samla regnvatten kan minska behovet av kranvatten för bevattning.")
+      #  st.image("https://example.com/regnvatten.jpg", width=150)
+        st.write("Har du en balkong? Då kan du samla regnvatten för att använda till bevattning av egna växter.")
         
         rainwater_usage = st.slider(
             "Hur mycket regnvatten samlar du varje vecka?", 
@@ -170,9 +170,9 @@ def show_actions():
         st.write(f"Du sparar ungefär **{rainwater_usage * 10} liter vatten per vecka** genom att använda regnvatten för bevattning.")
 
     # Förslag 7
-    with st.expander("🚰 Använd vattensparande produkter"):
-        st.image("https://example.com/vattensparande.jpg", width=150)
-        st.write("Installera vattensparande produkter som snålspolande duschmunstycken och vattenbesparande toaletter.")
+    with st.expander("🚰 Skölj förpackningen med diskvatten"):
+       # st.image("https://example.com/vattensparande.jpg", width=150)
+        st.write("Om du diskar för hand kan du använda diskvattnet som blir över för att skölja ur förpackningen.")
         
         products_used = st.slider(
             "Hur många vattensparande produkter har du installerat?", 
@@ -186,9 +186,9 @@ def show_actions():
         st.write(f"Du sparar ungefär **{products_used * 20} liter vatten per vecka** genom att använda vattensparande produkter.")
 
     # Förslag 8
-    with st.expander("🌱 Använd växter som kräver lite vatten"):
-        st.image("https://example.com/vaxter.jpg", width=150)
-        st.write("Välj växter som inte kräver mycket vatten för att minska bevattningen.")
+    with st.expander("🌱 Vatten i kylskåpet"):
+      #  st.image("https://example.com/vaxter.jpg", width=150)
+        st.write("Fylla en tillbringare eller flaska med vatten och sätt in i kylen så slipper du spola länge i kranen för att få kallt vatten att dricka.")
         
         low_water_plants = st.slider(
             "Hur många växter med låg vattenbehov har du?", 
@@ -202,9 +202,9 @@ def show_actions():
         st.write(f"Du sparar ungefär **{low_water_plants * 5} liter vatten per vecka** genom att odla växter med lågt vattenbehov.")
 
     # Förslag 9
-    with st.expander("🌍 Återanvänd vatten där det är möjligt"):
-        st.image("https://example.com/ateranvand.jpg", width=150)
-        st.write("Återanvänd vatten där det är möjligt, t.ex. för att spola toaletten eller vattna trädgården.")
+    with st.expander("🌍 Diska inte under rinnande vatten"):
+    #    st.image("https://example.com/ateranvand.jpg", width=150)
+        st.write("Genom att inte diska under rinnande vatten kan du spara 50 l varje gång du diskar, vilket kan innebära 15 000 liter per år.")
         
         water_reused = st.slider(
             "Hur mycket vatten återanvänder du per vecka?", 
@@ -219,7 +219,7 @@ def show_actions():
 
     # Förslag 10
     with st.expander("🚪 Stäng av vattnet när du borstar tänderna"):
-        st.image("https://example.com/tandborstning.jpg", width=150)
+     #   st.image("https://example.com/tandborstning.jpg", width=150)
         st.write("Stäng av vattnet medan du borstar tänderna för att minska vattenanvändningen.")
         
         teeth_brushing_times = st.slider(
