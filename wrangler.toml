@@ -1,0 +1,3 @@
+name = "mitt-projekt"
+main = "src/index.js"  # Se till att denna fil existerar!
+compatibility_date = "2024-02-10"  # Uppdatera till dagens datum
